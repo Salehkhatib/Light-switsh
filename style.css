@@ -55,13 +55,14 @@ button {
         justify-items: center;
         width: 200px;
         height: 200px;
-        box-shadow: 3px 3px 33px 10px yellow;
+        
     }
    .ionicon:active{
-    box-shadow: none;
+   
+    box-shadow: 3px 3px 33px 10px yellow;
    }
     .ionicon:hover{
-        box-shadow:none;
+        box-shadow: 3px 3px 33px 10px yellow;
     }
 
 
