@@ -40,23 +40,18 @@ margin-left: 3.5rem;
     gap: 10px;
 }
 button {   
-height: 50px;
-width: 180px;
-border: none;
-border-radius: 40px;
-border-style: 30px solid rgb(0, 0, 0);
-background-color: var(--secondary-color);
-color: var(--primary-color);
-box-shadow: 3px 5px 33px 10px yellow;
-transition: 150ms ease;
-user-select: none;
-}
-button:hover{
-    width: 300px;
-}
-button:focus{
-    outline: none;
-}
+    height: 0px;
+    width: 100px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    transition: 150ms ease;
+    user-select: none;
+    }
+    button:hover{
+        width: 150px;
+        box-shadow: 3px 3px yellow;
+    }
 
 
 
