@@ -6,6 +6,7 @@
 .dark_mode{
     --primary-color: #21272d;
     --secondary-color: white;
+    transition: background-color 3s;
     }
     .second.mode{
         color: aqua;
@@ -22,14 +23,16 @@
 
 
 body {
-height: 100vh;
+height: 500px;
+margin-right: 10rem;
 display: flex;
-flex-direction: column;
+transition: background-color 3s;
 justify-content: center;
 align-items: center;
 background-color: var(--primary-color);
-margin-left: 3.5rem;
+margin-left: 3rem;
 }
+
 .wrapper{
     height: min-content;
     width: 70%;
@@ -41,16 +44,24 @@ margin-left: 3.5rem;
 }
 button {   
     height: 0px;
-    width: 100px;
+    width: 0px;
     border: none;
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    transition: 150ms ease;
-    user-select: none;
+ }
+    .ionicon{
+        border-radius: 600px;
+        display: flex;
+        justify-items: center;
+        width: 200px;
+        height: 200px;
+        box-shadow: 3px 3px 33px 10px yellow;
     }
-    button:hover{
-        width: 150px;
-        box-shadow: 3px 3px yellow;
+   .ionicon:active{
+    box-shadow: none;
+   }
+    .ionicon:hover{
+        box-shadow:none;
     }
 
 
