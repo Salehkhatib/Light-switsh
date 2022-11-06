@@ -8,10 +8,6 @@
     --secondary-color: white;
     transition: background-color 3s;
     }
-    .second.mode{
-        color: aqua;
-        background-color: brown;
-    }
    
 *{
     margin: 0;
